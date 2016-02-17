@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * Backup-PHP-MySQL
+ * https://github.com/CarlosPinedaT/Backup-PHP-MySQL
+ * 
+ */
 
 backup_tables('localhost','root','','calidad');
 
