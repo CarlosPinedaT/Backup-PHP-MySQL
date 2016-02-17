@@ -5,16 +5,19 @@ Todas las base de datos deben ser respladadas y muchas veces se hace en forma ma
 
 Con este script usted puede pasar una tabla específica para copia de seguridad u optar por toda la base de datos.
 
-## Cómo implementar
+### Cómo implementar
 
 La mejor manera de utilizar el script es usuar el CRON de su Hosting para crear una tarea programada la cual se ejecutará automaticamente cada vez segun la configuración.
 
 
-## El uso de CRON
+### El uso de CRON
+```sh
+  wget -O / dev / null http://your-site.com/database_backup/backup.php
+```
 
-wget -O / dev / null http://your-site.com/database_backup/backup.php
 
-## Futuras Implementaciones
+
+### Futuras Implementaciones
 
  - Comprimir el sql resultante
  - Enviarlo a un correo electrónico o subirlo a un dropbox configurado
