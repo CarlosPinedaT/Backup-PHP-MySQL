@@ -20,5 +20,5 @@ La mejor manera de utilizar el script es usuar el CRON de su Hosting para crear 
 ### Futuras Implementaciones
 
  - Comprimir el sql resultante
- - Enviarlo a un correo electrónico o subirlo a un dropbox configurado
- - hacer no solo el backup de la base de datos si no tambien algunas carpetas determinadas
+ - Enviarlo a un correo electrónico o subirlo a un servicio configurado (Dropbox, GoogleDrive, FTP, etc)
+ - Hacer Backups de carpetas determinadas
